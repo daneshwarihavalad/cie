@@ -12,7 +12,8 @@ public class vote {
 
         if (n < 18) {
             System.out.println("not eligible for voting");
-        } else if (n >= 18) { 
+            System.out.println("age is eligible");
+        } else { 
             System.out.println("eligible for voting");
         }
         input.close(); 
